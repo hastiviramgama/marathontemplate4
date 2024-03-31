@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.bgimg{
+    background-image: url(image/firstimg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    padding:0;
+}
+.nav-list{
+    max-width:100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    padding:0px;
+    position: relative;
+}
+.nav-list li{
+    color: white;
+    text-align: right;
+}
+.nav-list li p{
+    text-decoration: none;
+}
+ .firstleftpart{
+    padding-bottom:100px;
+    position: relative;
+} 
+.firstpartheading{
+    color: white;
+    font-size:40px;
+    position: relative;
+    margin-top:70px;
+    letter-spacing:2px;
+    top:0px;
+
+}
+.firstpara{
+    color: white;
+    position: relative;
+    text-align:justify;
+    max-width:350px;
+    font-size:15px;
+
+}
+.firstbtn{
+    position: relative;
+    background-color: orangered;
+    text-align: center;
+    border:2px solid orangered;
+    color: white;
+    border-radius: 50px;
+    top: 10px;  
+    top: 10px;    
+    font-size: 10px; 
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.purplechat{
+    color: white;
+    position: relative;
+    border: 7px solid rgb(64, 5, 79) ;
+    background-color: rgb(64, 5, 79);
+    margin-top: 280px;
+    right:110px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:20px;
+    padding-right:20px;
+    border-bottom-left-radius:70px;
+    border-top-left-radius:70px;
+    border-top-right-radius:70px; 
+    font-size: 12px; 
+    max-width: 260px; 
+}
+.pinkchat{
+    background-color: rgb(186, 10, 104);
+    border:7px solid rgb(186, 10, 104);
+    color: white;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:20px;
+    padding-right:20px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;   
+    max-width:280px;
+    margin-top:10px;
+    font-size: 12px;  
+    right: 40px;
+    position: relative;
+}
+.orangechat{
+    background-color: orangered;
+    border:7px solid orangered;
+    color: white;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:20px;
+    padding-right:20px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;   
+    max-width:250px;
+    margin-top:10px;
+    right:120px;
+    position: relative;
+    font-size: 12px;  
+}
+.secondpart{
+    background-color: white;
+}
+.secondleftpart{
+    position: relative;
+    margin-top:150px;
+
+}
+.secondpartfheading{
+    font-size: 30px;
+    position: relative;
+    font-weight:500;
+
+}
+.secondpartsheading{
+    font-size: 20px;
+    font-weight:500;
+    top: -10px;
+    position: relative;
+}
+.secondpartpara{
+    position: relative;
+    top: -10px;
+    font-size:15px;
+    /* text-align: left; */
+    width:480px;
+}
+.secondpartbtn{
+        position: relative;
+        background-color: orangered;
+        text-align: center;
+        border:2px solid orangered;
+        color: white;
+        border-radius: 50px;
+        /* margin-left:150px; */
+        top: 10px;    
+        font-size: 10px; 
+        padding-left:20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 200px;
+}
+.secondrightpart{
+    position: relative;
+    margin-top:120px;
+}
+.secondpartbgimg{
+    position:absolute;
+    margin-left:170px;
+    margin-top:30px;
+    background-image: url(image/secondpartbgimg.jpg);
+    padding-top:360px;
+    padding-right:485px;
+}
+.secondpartupperimg{
+    position: relative;
+    margin-left:50px;
+    border-radius: 8px;
+    z-index:1;
+}
+.secondpartleftimg{
+    position: relative;
+    margin-left:-280px;
+    top:235px;
+    border-radius: 8px;
+    z-index:1;
+}
+.secondpartrightimg{
+    position: relative;
+    margin-left:0px;
+    top:150px;
+    border-radius: 8px;
+    z-index:1;
+}
+.thirdpart{
+    background-color: rgb(150, 210, 229);
+}
+.thirdpartfirsttext{
+    margin-top:120px;
+    position: relative;
+    font-size:12px;
+    font-weight: 500;
+}
+.thirdpartheading{
+    /* margin-top:10px; */
+    position: relative;
+    font-size: 30px;
+    top: -10px;
+    padding: 5px;
+    font-weight:400;
+}
+.tablepart{
+    position: relative;
+}
+.thirdparttableheading{
+    font-weight:700;
+font-size: 18px;
+padding-left:5px;
+}
+.thirdparttablepara{
+    font-weight:400;
+position: relative;
+padding: 10px;
+    
+}
+.readmore{
+    font-weight:700;
+    font-size: 12px;
+}
+.fourthpart{
+    background-color: white;
+}
+.fourthparttext{
+    font-size:12px;
+    font-weight:500;
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+.fourthpartheading{
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    font-weight:400;
+}
+.table{
+    position: relative;
+    top: 50px;
+}
+.fourthparttableheading{
+    font-weight:700;
+    font-size: 18px;
+    padding-left:5px;
+    
+}
+.fourthparttablepara{
+    font-weight:400;
+    position: relative;
+    padding: 10px;  
+}
+.fourthpartlasttext{
+    font-size:12px;
+    font-weight:500;
+    position: relative;
+    margin-top:50px;
+    text-align: center;
+}
+.fifthpart{
+    background-color: rgb(219, 218, 218);
+    position: relative;
+   padding-bottom:70px;
+}
+.fifthpartfirsttext{
+    position: relative;
+   margin-top:100px; 
+   font-size:12px;
+   font-weight:500;
+}
+.fifthpartparaheading{
+    position: relative;
+    font-size: 30px;
+    font-weight:500;
+    margin-top:10px;
+}
+.fifthpartpara{
+    position: relative;
+    padding-bottom:10px;
+}
+.fifthpartbgimg{
+    position: absolute;
+    top:110px;
+    left:40px;
+    padding-top:250px;
+    padding-left: 620px;
+    background-image: url(image/fifthpartbgimg.png);
+}
+.fifthpartimg{
+    margin-top: 20px;
+    position: relative;
+    max-width:500px;
+    left:20px;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+   
+    *{
+      width: 100%;
+      height: 100vh;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    *{
+      width: 100%;
+      height:100vh;
+    }
+  }
